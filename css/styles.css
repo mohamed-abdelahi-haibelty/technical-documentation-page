@@ -1,3 +1,6 @@
+:root {
+  --main-color: #4d4e53;
+}
 /* ----global selector---- */
 * {
   box-sizing: border-box;
@@ -28,3 +31,17 @@ body {
   }
 }
 /* ---end global selector */
+.content {
+  display: flex;
+}
+nav {
+  padding: 10px;
+}
+nav a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid var(--main-color);
+  color: var(--main-color);
+  text-decoration: none;
+  text-align: center;
+}
