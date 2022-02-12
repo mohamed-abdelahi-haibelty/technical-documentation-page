@@ -119,3 +119,9 @@ code {
   display: inline-block;
   border-radius: 15px;
 }
+#Variables p {
+  padding-left: 20px;
+}
+#Declaring_variables {
+  padding-left: 40px;
+}
