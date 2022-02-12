@@ -10,6 +10,7 @@ body {
   line-height: 1.5;
   background-color: #242526;
   color: #f1f1f1;
+  list-style: none;
 }
 /* .container {
   margin-left: auto;
@@ -87,4 +88,12 @@ main {
 #Introduction li {
   padding-left: 70px;
   padding-top: 10px;
+  list-style: var(--main-color);
+}
+li::before {
+  content: "\2022";
+  width: 1em;
+  color: #0084ff;
+  font-weight: bold;
+  display: inline-block;
 }
